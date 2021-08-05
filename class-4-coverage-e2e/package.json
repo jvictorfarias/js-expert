@@ -1,0 +1,17 @@
+{
+    "name": "class-4-coverage-e2e",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx mocha -w src/*.test.js",
+        "test:cov": "npx nyc npx mocha --parallel src/*.test.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "mocha": "^9.0.3",
+        "nyc": "^15.1.0",
+        "supertest": "^6.1.4"
+    }
+}
